@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Navigation Shark</Title>
+    <Authors>Michael Behner</Authors>
+    <Description>A small navigation service used to navigate to objects within an application using a container. Originally designed to replace WinUI3's Frame based navigation, but is generic and extensible enough to be used anywhere.</Description>
+    <Copyright>MIT License</Copyright>
+    <PackageProjectUrl>https://github.com/michaelbehner96/NavigationHelper</PackageProjectUrl>
+    <PackageIcon>Navigation-03-WF.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/michaelbehner96/NavigationHelper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>navigation;winui3;maui;navigate</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\micha\Desktop\Navigation-03-WF.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

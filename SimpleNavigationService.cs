@@ -1,4 +1,4 @@
-﻿namespace NavigationHelper
+﻿namespace NavigationShark
 {
 
     public class SimpleNavigationService<TNavigationTarget> : INavigationService<TNavigationTarget>

@@ -1,4 +1,4 @@
-﻿namespace NavigationHelper
+﻿namespace NavigationShark
 {
     public interface INavigationRequestHandler<T>
     {
